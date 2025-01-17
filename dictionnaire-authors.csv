@@ -1,0 +1,8 @@
+| PROPRIETE     | COMMENTAIRE | ENTITE  | TYPE                 | IDENTIFIANT |
+|---------------|-------------|---------|----------------------|-------------|
+| id            | PRIMARY KEY | authors | INT, AUTO_INCREMENT  | X           |
+| firstname     | NOT NULL    | authors | VARCHAR              |             |
+| lastname      | NOT NULL    | authors | VARCHAR              |             |
+| country       | NOT NULL    | authors | VARCHAR              |             |
+| date_of_birth | NOT NULL    | authors | DATE                 |             |
+| date_of_death |             | authors | DATE                 |             |
