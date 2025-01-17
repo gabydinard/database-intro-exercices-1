@@ -1,0 +1,12 @@
+\begin{table}[]
+\begin{tabular}{lllll}
+PROPRIETE    & COMMENTAIRE  & ENTITE  & TYPE    & IDENTIFIANT \\
+NumeroSS     & PRIMARY KEY  & ENFANT  & INT     & X           \\
+NomENF       & NOT NULL     & ENFANT  & VARCHAR &             \\
+Prenom       & NOT NULL     & ENFANT  & VARCHAR &             \\
+NOMEC        & FOREIGN KEY  & ECOLE   & VARCHAR &             \\
+CodeEcole    & PRIMARY KEY  & ECOLE   & INT     & X           \\
+Code\_postal & PRIMARY. KEY & COMMUNE & INT     & X           \\
+NomC         & FOREIGN KEY  & COMMUNE & VARCHAR &            
+\end{tabular}
+\end{table}
